@@ -21,7 +21,7 @@
 
 #include <stdbool.h>
 #include <stdint.h>
-#include <ft2build.h>
+#include "ft2build.h"
 #include FT_FREETYPE_H
 
 typedef struct ass_shaper_font_data ASS_ShaperFontData;

@@ -17,7 +17,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include "config.h"
+
 #include "ass_compat.h"
 
 #include <stdlib.h>
@@ -29,7 +29,7 @@
 #include <sys/stat.h>
 #include <inttypes.h>
 #include <limits.h>
-#include <ft2build.h>
+#include "ft2build.h"
 #include <sys/types.h>
 #include <dirent.h>
 #include FT_FREETYPE_H
