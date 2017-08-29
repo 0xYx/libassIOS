@@ -71,6 +71,57 @@
 		1CFBBB811F55538C007F458F /* ass_string.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8181F5416FA002EF833 /* ass_string.h */; };
 		1CFBBB821F55538C007F458F /* ass_types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B81A1F5416FA002EF833 /* ass_types.h */; };
 		1CFBBB831F55538C007F458F /* ass_utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B81C1F5416FA002EF833 /* ass_utils.h */; };
+		1CFBBB841F5555BD007F458F /* fribidi-char-sets-cap-rtl.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB341F554F83007F458F /* fribidi-char-sets-cap-rtl.c */; };
+		1CFBBB851F5555BD007F458F /* fribidi-char-sets-cap-rtl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB351F554F83007F458F /* fribidi-char-sets-cap-rtl.h */; };
+		1CFBBB861F5555BD007F458F /* fribidi-char-sets-cp1255.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB361F554F83007F458F /* fribidi-char-sets-cp1255.c */; };
+		1CFBBB871F5555BD007F458F /* fribidi-char-sets-cp1255.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB371F554F83007F458F /* fribidi-char-sets-cp1255.h */; };
+		1CFBBB881F5555BD007F458F /* fribidi-char-sets-cp1256.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB381F554F83007F458F /* fribidi-char-sets-cp1256.c */; };
+		1CFBBB891F5555BD007F458F /* fribidi-char-sets-cp1256.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB391F554F83007F458F /* fribidi-char-sets-cp1256.h */; };
+		1CFBBB8A1F5555BD007F458F /* fribidi-char-sets-iso8859-6.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB3A1F554F83007F458F /* fribidi-char-sets-iso8859-6.c */; };
+		1CFBBB8B1F5555BD007F458F /* fribidi-char-sets-iso8859-6.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB3B1F554F83007F458F /* fribidi-char-sets-iso8859-6.h */; };
+		1CFBBB8C1F5555BD007F458F /* fribidi-char-sets-iso8859-8.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB3C1F554F83007F458F /* fribidi-char-sets-iso8859-8.c */; };
+		1CFBBB8D1F5555BD007F458F /* fribidi-char-sets-iso8859-8.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB3D1F554F83007F458F /* fribidi-char-sets-iso8859-8.h */; };
+		1CFBBB8E1F5555BD007F458F /* fribidi-char-sets-list.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB3E1F554F83007F458F /* fribidi-char-sets-list.h */; };
+		1CFBBB8F1F5555BD007F458F /* fribidi-char-sets-utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB3F1F554F83007F458F /* fribidi-char-sets-utf8.c */; };
+		1CFBBB901F5555BD007F458F /* fribidi-char-sets-utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB401F554F83007F458F /* fribidi-char-sets-utf8.h */; };
+		1CFBBB911F5555BD007F458F /* fribidi-char-sets.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB411F554F83007F458F /* fribidi-char-sets.c */; };
+		1CFBBB921F5555BD007F458F /* fribidi-char-sets.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB421F554F83007F458F /* fribidi-char-sets.h */; };
+		1CFBBB931F5555C9007F458F /* bidi-types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB471F554F83007F458F /* bidi-types.h */; };
+		1CFBBB941F5555FE007F458F /* fribidi-arabic.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB4B1F554F83007F458F /* fribidi-arabic.h */; };
+		1CFBBB951F5555FE007F458F /* fribidi-begindecls.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB4C1F554F83007F458F /* fribidi-begindecls.h */; };
+		1CFBBB961F5555FE007F458F /* fribidi-bidi-types-list.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB4D1F554F83007F458F /* fribidi-bidi-types-list.h */; };
+		1CFBBB971F5555FE007F458F /* fribidi-bidi-types.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB4E1F554F83007F458F /* fribidi-bidi-types.c */; };
+		1CFBBB981F5555FE007F458F /* fribidi-bidi-types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB4F1F554F83007F458F /* fribidi-bidi-types.h */; };
+		1CFBBB991F5555FE007F458F /* fribidi-bidi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB501F554F83007F458F /* fribidi-bidi.c */; };
+		1CFBBB9A1F5555FE007F458F /* fribidi-bidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB511F554F83007F458F /* fribidi-bidi.h */; };
+		1CFBBB9B1F5555FE007F458F /* fribidi-common.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB521F554F83007F458F /* fribidi-common.h */; };
+		1CFBBB9C1F5555FE007F458F /* fribidi-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB531F554F83007F458F /* fribidi-config.h */; };
+		1CFBBB9D1F5555FE007F458F /* fribidi-deprecated.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB541F554F83007F458F /* fribidi-deprecated.c */; };
+		1CFBBB9E1F5555FE007F458F /* fribidi-deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB551F554F83007F458F /* fribidi-deprecated.h */; };
+		1CFBBB9F1F5555FE007F458F /* fribidi-enddecls.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB561F554F83007F458F /* fribidi-enddecls.h */; };
+		1CFBBBA01F5555FE007F458F /* fribidi-flags.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB571F554F83007F458F /* fribidi-flags.h */; };
+		1CFBBBA11F5555FE007F458F /* fribidi-joining-types-list.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB581F554F83007F458F /* fribidi-joining-types-list.h */; };
+		1CFBBBA21F555602007F458F /* fribidi-arabic.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB4A1F554F83007F458F /* fribidi-arabic.c */; };
+		1CFBBBA31F555606007F458F /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB481F554F83007F458F /* common.h */; };
+		1CFBBBA41F555606007F458F /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB491F554F83007F458F /* debug.h */; };
+		1CFBBBA81F55561C007F458F /* fribidi-joining-types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB5A1F554F83007F458F /* fribidi-joining-types.h */; };
+		1CFBBBA91F55561C007F458F /* fribidi-joining.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB5B1F554F83007F458F /* fribidi-joining.c */; };
+		1CFBBBAA1F55561C007F458F /* fribidi-joining.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB5C1F554F83007F458F /* fribidi-joining.h */; };
+		1CFBBBAB1F55561C007F458F /* fribidi-mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB5D1F554F83007F458F /* fribidi-mem.c */; };
+		1CFBBBAC1F55561C007F458F /* fribidi-mirroring.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB5E1F554F83007F458F /* fribidi-mirroring.c */; };
+		1CFBBBAD1F55561C007F458F /* fribidi-mirroring.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB5F1F554F83007F458F /* fribidi-mirroring.h */; };
+		1CFBBBAE1F55561F007F458F /* fribidi-joining-types.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB591F554F83007F458F /* fribidi-joining-types.c */; };
+		1CFBBBAF1F555626007F458F /* fribidi-run.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB601F554F83007F458F /* fribidi-run.c */; };
+		1CFBBBB01F555626007F458F /* fribidi-shape.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB611F554F83007F458F /* fribidi-shape.c */; };
+		1CFBBBB11F555626007F458F /* fribidi-shape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB621F554F83007F458F /* fribidi-shape.h */; };
+		1CFBBBB21F555626007F458F /* fribidi-types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB631F554F83007F458F /* fribidi-types.h */; };
+		1CFBBBB31F555626007F458F /* fribidi-unicode-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB641F554F83007F458F /* fribidi-unicode-version.h */; };
+		1CFBBBB41F555626007F458F /* fribidi-unicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB651F554F83007F458F /* fribidi-unicode.h */; };
+		1CFBBBB51F555636007F458F /* fribidi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBBB661F554F83007F458F /* fribidi.c */; };
+		1CFBBBB61F555636007F458F /* fribidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB681F554F83007F458F /* fribidi.h */; };
+		1CFBBBB81F555636007F458F /* joining-types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB6B1F554F83007F458F /* joining-types.h */; };
+		1CFBBBB91F555636007F458F /* mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB6C1F554F83007F458F /* mem.h */; };
+		1CFBBBBB1F555636007F458F /* run.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFBBB6E1F554F83007F458F /* run.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -288,7 +339,6 @@
 		1CFBBB661F554F83007F458F /* fribidi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fribidi.c; sourceTree = "<group>"; };
 		1CFBBB671F554F83007F458F /* fribidi.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = fribidi.def; sourceTree = "<group>"; };
 		1CFBBB681F554F83007F458F /* fribidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fribidi.h; sourceTree = "<group>"; };
-		1CFBBB691F554F83007F458F /* Headers.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Headers.mk; sourceTree = "<group>"; };
 		1CFBBB6A1F554F83007F458F /* joining-type.tab.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = "joining-type.tab.i"; sourceTree = "<group>"; };
 		1CFBBB6B1F554F83007F458F /* joining-types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "joining-types.h"; sourceTree = "<group>"; };
 		1CFBBB6C1F554F83007F458F /* mem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
@@ -597,7 +647,6 @@
 				1CFBBB661F554F83007F458F /* fribidi.c */,
 				1CFBBB671F554F83007F458F /* fribidi.def */,
 				1CFBBB681F554F83007F458F /* fribidi.h */,
-				1CFBBB691F554F83007F458F /* Headers.mk */,
 				1CFBBB6A1F554F83007F458F /* joining-type.tab.i */,
 				1CFBBB6B1F554F83007F458F /* joining-types.h */,
 				1CFBBB6C1F554F83007F458F /* mem.h */,
@@ -614,25 +663,58 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFBBBA41F555606007F458F /* debug.h in Headers */,
+				1CFBBB951F5555FE007F458F /* fribidi-begindecls.h in Headers */,
 				1CFBB97F1F5547FB007F458F /* ass_outline.h in Headers */,
 				1CFBB9831F5547FB007F458F /* ass_shaper.h in Headers */,
+				1CFBBBAD1F55561C007F458F /* fribidi-mirroring.h in Headers */,
 				1CFBB9861F5547FB007F458F /* ass_utils.h in Headers */,
+				1CFBBBB41F555626007F458F /* fribidi-unicode.h in Headers */,
+				1CFBBB941F5555FE007F458F /* fribidi-arabic.h in Headers */,
+				1CFBBB851F5555BD007F458F /* fribidi-char-sets-cap-rtl.h in Headers */,
 				1CFBB97E1F5547FB007F458F /* ass_library.h in Headers */,
+				1CFBBB961F5555FE007F458F /* fribidi-bidi-types-list.h in Headers */,
 				1CFBB97B1F5547FB007F458F /* ass_fontconfig.h in Headers */,
+				1CFBBB891F5555BD007F458F /* fribidi-char-sets-cp1256.h in Headers */,
 				1CFBB9761F5547FB007F458F /* ass_cache_template.h in Headers */,
+				1CFBBB931F5555C9007F458F /* bidi-types.h in Headers */,
 				1CFBB9781F5547FB007F458F /* ass_coretext.h in Headers */,
+				1CFBBB9E1F5555FE007F458F /* fribidi-deprecated.h in Headers */,
+				1CFBBBB21F555626007F458F /* fribidi-types.h in Headers */,
+				1CFBBBBB1F555636007F458F /* run.h in Headers */,
 				1CFBB97A1F5547FB007F458F /* ass_font.h in Headers */,
 				1CFBB9821F5547FB007F458F /* ass_render.h in Headers */,
+				1CFBBBB61F555636007F458F /* fribidi.h in Headers */,
+				1CFBBBA11F5555FE007F458F /* fribidi-joining-types-list.h in Headers */,
 				1CFBB9751F5547FB007F458F /* ass_cache.h in Headers */,
+				1CFBBB8E1F5555BD007F458F /* fribidi-char-sets-list.h in Headers */,
+				1CFBBBA31F555606007F458F /* common.h in Headers */,
 				1CFBB97C1F5547FB007F458F /* ass_fontselect.h in Headers */,
+				1CFBBB9F1F5555FE007F458F /* fribidi-enddecls.h in Headers */,
+				1CFBBB901F5555BD007F458F /* fribidi-char-sets-utf8.h in Headers */,
 				1CFBB9871F5547FB007F458F /* dwrite_c.h in Headers */,
+				1CFBBBB31F555626007F458F /* fribidi-unicode-version.h in Headers */,
 				1CFBB9771F5547FB007F458F /* ass_compat.h in Headers */,
 				1CFBB97D1F5547FB007F458F /* ass_func_template.h in Headers */,
+				1CFBBBB91F555636007F458F /* mem.h in Headers */,
+				1CFBBB9A1F5555FE007F458F /* fribidi-bidi.h in Headers */,
+				1CFBBBB81F555636007F458F /* joining-types.h in Headers */,
+				1CFBBB981F5555FE007F458F /* fribidi-bidi-types.h in Headers */,
 				1CFBB9791F5547FB007F458F /* ass_drawing.h in Headers */,
 				1CFBB9841F5547FB007F458F /* ass_string.h in Headers */,
 				1CFBB9811F5547FB007F458F /* ass_rasterizer.h in Headers */,
+				1CFBBBB11F555626007F458F /* fribidi-shape.h in Headers */,
+				1CFBBB8B1F5555BD007F458F /* fribidi-char-sets-iso8859-6.h in Headers */,
+				1CFBBB8D1F5555BD007F458F /* fribidi-char-sets-iso8859-8.h in Headers */,
 				1CFBB9731F5547FB007F458F /* ass.h in Headers */,
+				1CFBBBA01F5555FE007F458F /* fribidi-flags.h in Headers */,
 				1CFBB9851F5547FB007F458F /* ass_types.h in Headers */,
+				1CFBBB921F5555BD007F458F /* fribidi-char-sets.h in Headers */,
+				1CFBBB871F5555BD007F458F /* fribidi-char-sets-cp1255.h in Headers */,
+				1CFBBBA81F55561C007F458F /* fribidi-joining-types.h in Headers */,
+				1CFBBB9B1F5555FE007F458F /* fribidi-common.h in Headers */,
+				1CFBBBAA1F55561C007F458F /* fribidi-joining.h in Headers */,
+				1CFBBB9C1F5555FE007F458F /* fribidi-config.h in Headers */,
 				1CFBB9741F5547FB007F458F /* ass_bitmap.h in Headers */,
 				1CFBB9801F5547FB007F458F /* ass_parse.h in Headers */,
 			);
@@ -699,25 +781,43 @@
 			files = (
 				1CC5791C1F5433F5000A4B82 /* ass_fontconfig.c in Sources */,
 				1CC5791F1F5433F5000A4B82 /* ass_outline.c in Sources */,
+				1CFBBBA91F55561C007F458F /* fribidi-joining.c in Sources */,
 				1CC579261F5433F5000A4B82 /* ass_string.c in Sources */,
 				1CC5791D1F5433F5000A4B82 /* ass_fontselect.c in Sources */,
+				1CFBBB8A1F5555BD007F458F /* fribidi-char-sets-iso8859-6.c in Sources */,
+				1CFBBB861F5555BD007F458F /* fribidi-char-sets-cp1255.c in Sources */,
 				1CC5791A1F5433F5000A4B82 /* ass_drawing.c in Sources */,
+				1CFBBB991F5555FE007F458F /* fribidi-bidi.c in Sources */,
+				1CFBBB8F1F5555BD007F458F /* fribidi-char-sets-utf8.c in Sources */,
+				1CFBBBA21F555602007F458F /* fribidi-arabic.c in Sources */,
+				1CFBBBB01F555626007F458F /* fribidi-shape.c in Sources */,
+				1CFBBB911F5555BD007F458F /* fribidi-char-sets.c in Sources */,
 				1CC579171F5433F5000A4B82 /* ass_cache.c in Sources */,
 				1CC9B7AB1F54168B002EF833 /* libassIOS.m in Sources */,
 				1CC579221F5433F5000A4B82 /* ass_rasterizer_c.c in Sources */,
 				1CC5791E1F5433F5000A4B82 /* ass_library.c in Sources */,
+				1CFBBB9D1F5555FE007F458F /* fribidi-deprecated.c in Sources */,
+				1CFBBB8C1F5555BD007F458F /* fribidi-char-sets-iso8859-8.c in Sources */,
 				1CC579241F5433F5000A4B82 /* ass_render_api.c in Sources */,
 				1CC579211F5433F5000A4B82 /* ass_rasterizer.c in Sources */,
 				1CC579141F5433F5000A4B82 /* ass.c in Sources */,
 				1CC579231F5433F5000A4B82 /* ass_render.c in Sources */,
+				1CFBBBAC1F55561C007F458F /* fribidi-mirroring.c in Sources */,
+				1CFBBB971F5555FE007F458F /* fribidi-bidi-types.c in Sources */,
+				1CFBBBAF1F555626007F458F /* fribidi-run.c in Sources */,
 				1CC579181F5433F5000A4B82 /* ass_coretext.c in Sources */,
 				1CC5791B1F5433F5000A4B82 /* ass_font.c in Sources */,
 				1CC579281F5433F5000A4B82 /* ass_utils.c in Sources */,
+				1CFBBBAE1F55561F007F458F /* fribidi-joining-types.c in Sources */,
+				1CFBBB881F5555BD007F458F /* fribidi-char-sets-cp1256.c in Sources */,
 				1CC579271F5433F5000A4B82 /* ass_strtod.c in Sources */,
 				1CC579161F5433F5000A4B82 /* ass_blur.c in Sources */,
+				1CFBBBB51F555636007F458F /* fribidi.c in Sources */,
+				1CFBBB841F5555BD007F458F /* fribidi-char-sets-cap-rtl.c in Sources */,
 				1CC579201F5433F5000A4B82 /* ass_parse.c in Sources */,
 				1CC579151F5433F5000A4B82 /* ass_bitmap.c in Sources */,
 				1CC579251F5433F5000A4B82 /* ass_shaper.c in Sources */,
+				1CFBBBAB1F55561C007F458F /* fribidi-mem.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
