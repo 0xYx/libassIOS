@@ -930,6 +930,7 @@
 					"$(PROJECT_DIR)/libfreetype",
 					"$(PROJECT_DIR)/libfribidi",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -952,6 +953,7 @@
 					"$(PROJECT_DIR)/libfreetype",
 					"$(PROJECT_DIR)/libfribidi",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
