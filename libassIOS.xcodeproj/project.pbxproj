@@ -28,7 +28,6 @@
 		1CC579271F5433F5000A4B82 /* ass_strtod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9B8191F5416FA002EF833 /* ass_strtod.c */; };
 		1CC579281F5433F5000A4B82 /* ass_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9B81B1F5416FA002EF833 /* ass_utils.c */; };
 		1CC9B7AB1F54168B002EF833 /* libassIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9B7AA1F54168B002EF833 /* libassIOS.m */; };
-		1CC9B7AC1F54168B002EF833 /* libassIOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B7A91F54168B002EF833 /* libassIOS.h */; };
 		1CFBB8FD1F554393007F458F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFBB8FC1F554393007F458F /* Foundation.framework */; };
 		1CFBB9731F5547FB007F458F /* ass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC9B7F41F5416FA002EF833 /* ass.h */; };
 		1CFBB9741F5547FB007F458F /* ass_bitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC9B7F61F5416FA002EF833 /* ass_bitmap.h */; };
@@ -52,6 +51,26 @@
 		1CFBB9861F5547FB007F458F /* ass_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC9B81C1F5416FA002EF833 /* ass_utils.h */; };
 		1CFBB9871F5547FB007F458F /* dwrite_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC9B81D1F5416FA002EF833 /* dwrite_c.h */; };
 		1CFBBAD71F554EAE007F458F /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFBBAD61F554EAE007F458F /* libfreetype.a */; };
+		1CFBBB701F55538C007F458F /* ass.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B7F41F5416FA002EF833 /* ass.h */; };
+		1CFBBB711F55538C007F458F /* ass_bitmap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B7F61F5416FA002EF833 /* ass_bitmap.h */; };
+		1CFBBB721F55538C007F458F /* ass_cache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B7F91F5416FA002EF833 /* ass_cache.h */; };
+		1CFBBB731F55538C007F458F /* ass_cache_template.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B7FA1F5416FA002EF833 /* ass_cache_template.h */; };
+		1CFBBB741F55538C007F458F /* ass_compat.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B7FB1F5416FA002EF833 /* ass_compat.h */; };
+		1CFBBB751F55538C007F458F /* ass_coretext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B7FD1F5416FA002EF833 /* ass_coretext.h */; };
+		1CFBBB761F55538C007F458F /* ass_drawing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8011F5416FA002EF833 /* ass_drawing.h */; };
+		1CFBBB771F55538C007F458F /* ass_font.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8031F5416FA002EF833 /* ass_font.h */; };
+		1CFBBB781F55538C007F458F /* ass_fontconfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8051F5416FA002EF833 /* ass_fontconfig.h */; };
+		1CFBBB791F55538C007F458F /* ass_fontselect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8071F5416FA002EF833 /* ass_fontselect.h */; };
+		1CFBBB7A1F55538C007F458F /* ass_func_template.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8081F5416FA002EF833 /* ass_func_template.h */; };
+		1CFBBB7B1F55538C007F458F /* ass_library.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B80A1F5416FA002EF833 /* ass_library.h */; };
+		1CFBBB7C1F55538C007F458F /* ass_outline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B80C1F5416FA002EF833 /* ass_outline.h */; };
+		1CFBBB7D1F55538C007F458F /* ass_parse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B80E1F5416FA002EF833 /* ass_parse.h */; };
+		1CFBBB7E1F55538C007F458F /* ass_rasterizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8101F5416FA002EF833 /* ass_rasterizer.h */; };
+		1CFBBB7F1F55538C007F458F /* ass_render.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8131F5416FA002EF833 /* ass_render.h */; };
+		1CFBBB801F55538C007F458F /* ass_shaper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8161F5416FA002EF833 /* ass_shaper.h */; };
+		1CFBBB811F55538C007F458F /* ass_string.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B8181F5416FA002EF833 /* ass_string.h */; };
+		1CFBBB821F55538C007F458F /* ass_types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B81A1F5416FA002EF833 /* ass_types.h */; };
+		1CFBBB831F55538C007F458F /* ass_utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CC9B81C1F5416FA002EF833 /* ass_utils.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,7 +80,26 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1CC9B7AC1F54168B002EF833 /* libassIOS.h in CopyFiles */,
+				1CFBBB701F55538C007F458F /* ass.h in CopyFiles */,
+				1CFBBB711F55538C007F458F /* ass_bitmap.h in CopyFiles */,
+				1CFBBB721F55538C007F458F /* ass_cache.h in CopyFiles */,
+				1CFBBB731F55538C007F458F /* ass_cache_template.h in CopyFiles */,
+				1CFBBB741F55538C007F458F /* ass_compat.h in CopyFiles */,
+				1CFBBB751F55538C007F458F /* ass_coretext.h in CopyFiles */,
+				1CFBBB761F55538C007F458F /* ass_drawing.h in CopyFiles */,
+				1CFBBB771F55538C007F458F /* ass_font.h in CopyFiles */,
+				1CFBBB781F55538C007F458F /* ass_fontconfig.h in CopyFiles */,
+				1CFBBB791F55538C007F458F /* ass_fontselect.h in CopyFiles */,
+				1CFBBB7A1F55538C007F458F /* ass_func_template.h in CopyFiles */,
+				1CFBBB7B1F55538C007F458F /* ass_library.h in CopyFiles */,
+				1CFBBB7C1F55538C007F458F /* ass_outline.h in CopyFiles */,
+				1CFBBB7D1F55538C007F458F /* ass_parse.h in CopyFiles */,
+				1CFBBB7E1F55538C007F458F /* ass_rasterizer.h in CopyFiles */,
+				1CFBBB7F1F55538C007F458F /* ass_render.h in CopyFiles */,
+				1CFBBB801F55538C007F458F /* ass_shaper.h in CopyFiles */,
+				1CFBBB811F55538C007F458F /* ass_string.h in CopyFiles */,
+				1CFBBB821F55538C007F458F /* ass_types.h in CopyFiles */,
+				1CFBBB831F55538C007F458F /* ass_utils.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
