@@ -7,7 +7,7 @@
 //
 
 #import "libassIOS.h"
-
+#import "ass.h"
 @implementation libassIOS
 
 @end
