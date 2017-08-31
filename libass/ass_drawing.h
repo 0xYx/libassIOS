@@ -19,7 +19,7 @@
 #ifndef LIBASS_DRAWING_H
 #define LIBASS_DRAWING_H
 
-#include "ft2build.h"
+#include <ft2build.h>
 #include FT_OUTLINE_H
 
 #include "ass.h"

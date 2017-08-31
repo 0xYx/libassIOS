@@ -29,7 +29,7 @@
 #include <sys/stat.h>
 #include <inttypes.h>
 #include <limits.h>
-#include "ft2build.h"
+#include <ft2build.h>
 #include <sys/types.h>
 #include <dirent.h>
 #include FT_FREETYPE_H

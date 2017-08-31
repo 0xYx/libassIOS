@@ -16,10 +16,11 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
+
 #include "ass_compat.h"
 
 #include <inttypes.h>
-#include "ft2build.h"
+#include <ft2build.h>
 #include FT_FREETYPE_H
 #include FT_SYNTHESIS_H
 #include FT_GLYPH_H

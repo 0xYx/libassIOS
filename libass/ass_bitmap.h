@@ -20,7 +20,7 @@
 #define LIBASS_BITMAP_H
 
 #include <stdbool.h>
-#include "ft2build.h"
+#include <ft2build.h>
 #include FT_GLYPH_H
 
 #include "ass.h"

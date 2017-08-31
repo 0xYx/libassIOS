@@ -17,11 +17,11 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-//#include "config.h"
+
 #include "ass_compat.h"
 
 #include <inttypes.h>
-#include "ft2build.h"
+#include <ft2build.h>
 #include FT_OUTLINE_H
 #include <assert.h>
 

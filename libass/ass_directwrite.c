@@ -17,8 +17,10 @@
  */
 #define COBJMACROS
 
+#include "config.h"
 #include "ass_compat.h"
 
+#include <initguid.h>
 #include <ole2.h>
 #include <shobjidl.h>
 

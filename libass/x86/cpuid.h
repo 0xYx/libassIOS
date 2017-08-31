@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2011 Grigori Goronzy <greg@chown.ath.cx>
+ * Copyright (C) 2013 Rodger Combs <rcombs@rcombs.me>
  *
  * This file is part of libass.
  *
@@ -16,18 +16,10 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include "ass_types.h"
-#include "ass_fontselect.h"
+#ifndef INTEL_CPUID_H
+#define INTEL_CPUID_H
 
-#ifndef ASS_FONTCONFIG_H
-#define ASS_FONTCONFIG_H
-
-#ifdef CONFIG_FONTCONFIG
-
-ASS_FontProvider *
-ass_fontconfig_add_provider(ASS_Library *lib, ASS_FontSelector *selector,
-                            const char *config);
-
-#endif
+void ass_get_cpuid( uint32_t *eax, uint32_t *ebx, uint32_t *ecx, uint32_t *edx);
+void ass_get_xgetbv( uint32_t op, uint32_t *eax, uint32_t *edx );
 
 #endif

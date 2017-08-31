@@ -16,7 +16,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-//#include "config.h"config.h
+
 #include "ass_compat.h"
 
 #include <assert.h>
